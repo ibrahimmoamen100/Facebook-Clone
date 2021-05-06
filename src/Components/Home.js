@@ -1,6 +1,7 @@
 import React from "react";
 import MenuSection from "./MenuSection";
 import "./Home.css";
+import "./Home2.css";
 import "./../App.css";
 import SectionMid from "./SectionMid";
 import Freinds from "./Freinds";
