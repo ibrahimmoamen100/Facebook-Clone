@@ -9,6 +9,8 @@ import israel from "../image/israel.jpg";
 import pala1 from "../image/pala1.jpg";
 import saba from "../image/saba.png";
 import asd from "../image/asd.mp4";
+import gg from "../image/gg.mp4";
+import kmama from "../image/kmama.jpg";
 
 import "./SectionMid.css";
 
@@ -25,16 +27,8 @@ export default class SectionMid extends Component {
 "
           img={israel}
         />
-        <CommentPosted
-          content=" حسبنا الله ونعم الوكيل في الصهاينه اللهم كما قتلو انبيائك و دنسو المسجد الاقصي اللهم انتقم منهم اشد انتقام"
-          video={asd}
-        />
-
-        <CommentPosted
-          content=" يتم تجريف المستوطنين الفلسطينيين الان من المسجد الاقصي  حسبنا الله ونعم الوكيل "
-          link="https://www.facebook.com/abohamzaalhasanat/videos/2410885795710646"
-          img={saba}
-        />
+        <CommentPosted content="❤ البشمهندس اسامه ربنا يحفظو " img={osama} />
+        <CommentPosted content="😂 صهيوني يحن لوطنه الحقيقي    " img={kmama} />
       </div>
     );
   }
