@@ -19,7 +19,7 @@ export default function CommentPosted(props) {
           <img src={user} />
         </NavLink>
         <div className="username-time">
-          <NavLink to="/Freinds">IBrahim Moamen</NavLink>
+          <NavLink to="/Freinds">Ahmed Hamdy</NavLink>
           <span>
             April 13 at 1:26 PM · Shared with puplic '
             <i className="fas fa-globe-americas"></i>
