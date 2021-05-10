@@ -10,6 +10,7 @@ import marketplace from "../image/marketplace.png";
 import group from "../image/group.png";
 import elzero from "../image/elzero.jpg";
 import unique from "../image/unique.jpg";
+import youtube from "../image/youtube.png";
 import "./MenuSection.css";
 
 export default function MenuSection() {
@@ -63,6 +64,15 @@ export default function MenuSection() {
             <img src={unique} />
           </div>
           <span>Unique Coderz Acadimy</span>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCMG7vp428nfRlAebuxwxziA/videos?view=0&sort=dd&shelf_id=0"
+          className="unique-short"
+        >
+          <div>
+            <img src={youtube} />
+          </div>
+          <span>MY Youtube Channel</span>
         </a>
       </ul>
       {/* <h1>Hello from menu</h1> */}

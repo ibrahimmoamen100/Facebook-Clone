@@ -7,7 +7,7 @@ import osama from "../image/ss.jpg";
 import nas from "../image/nas.jpg";
 import israel from "../image/israel.jpg";
 import pala1 from "../image/pala1.jpg";
-import pala2 from "../image/pala2.jpg";
+import saba from "../image/saba.png";
 
 import "./SectionMid.css";
 
@@ -17,17 +17,20 @@ export default class SectionMid extends Component {
       <div className="container-mid">
         <CreateComment />
         <CommentPosted content="صلي علي الحبيب صلي الله عليه وسلم " />
+
         <CommentPosted content="❤ العشره الاواخر " video={video} />
         <CommentPosted
           content="إسرائيل هي الإرهاب الحقيقي  #Israel_is_real_terrorism
 "
           img={israel}
         />
+        <CommentPosted content="البشمهندس اسامه ربنا يباركله ❤" img={osama} />
+
         <CommentPosted
-          content=" فلسطيــن غداً ستكون حرةً إن شاء الله"
-          img={pala1}
+          content=" يتم تجريف المستوطنين الفلسطينيين الان من المسجد الاقصي  حسبنا الله ونعم الوكيل "
+          link="https://www.facebook.com/abohamzaalhasanat/videos/2410885795710646"
+          img={saba}
         />
-        <CommentPosted content="البشمهندس اسامه ربنا يبارك له ❤ " img={osama} />
       </div>
     );
   }

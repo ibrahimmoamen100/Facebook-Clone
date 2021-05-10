@@ -30,7 +30,18 @@ export default function CommentPosted(props) {
         </div>
       </div>
       <div className="comment-content">
-        <span>{props.content} </span>
+        {props.content ? <span> {props.content} </span> : ""}
+        {/* Check for link */}
+
+        {props.link ? (
+          <a href={props.link}>
+            {props.content}
+            {props.img}
+          </a>
+        ) : (
+          ""
+        )}
+
         {/* check if video execting  */}
         {props.img ? <img src={props.img} /> : ""}
         {/* check if video execting  */}
