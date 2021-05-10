@@ -1,6 +1,6 @@
 import React from "react";
 import "./CreateComment.css";
-import user from "../../image/my.jpg";
+import user from "../../image/cc.jpg";
 import { NavLink } from "react-router-dom";
 
 import "../../App.css";

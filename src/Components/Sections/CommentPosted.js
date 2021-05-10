@@ -1,6 +1,6 @@
 import React from "react";
 import "./CommentPosted.css";
-import user from "../../image/my.jpg";
+import user from "../../image/cc.jpg";
 import like from "../../image/like.svg";
 import angry from "../../image/angry.svg";
 import haha from "../../image/haha.svg";
