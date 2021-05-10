@@ -24,13 +24,11 @@ export default class SectionMid extends Component {
           img={israel}
         />
         <CommentPosted
-          content="فلسطيــن غداً ستكون حرةً إن شاء الله"
+          content=" فلسطيــن غداً ستكون حرةً إن شاء الله"
           img={pala1}
         />
-        <CommentPosted content="الخلوق ❤ " img={osama} />
+        <CommentPosted content="البشمهندس اسامه ربنا يبارك له ❤ " img={osama} />
       </div>
     );
   }
 }
-
-console.log("hello");
