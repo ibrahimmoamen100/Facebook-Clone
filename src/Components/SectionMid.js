@@ -8,6 +8,7 @@ import nas from "../image/nas.jpg";
 import israel from "../image/israel.jpg";
 import pala1 from "../image/pala1.jpg";
 import saba from "../image/saba.png";
+import asd from "../image/asd.mp4";
 
 import "./SectionMid.css";
 
@@ -24,7 +25,10 @@ export default class SectionMid extends Component {
 "
           img={israel}
         />
-        <CommentPosted content="البشمهندس اسامه ربنا يباركله ❤" img={osama} />
+        <CommentPosted
+          content=" حسبنا الله ونعم الوكيل في الصهاينه اللهم كما قتلو انبيائك و دنسو المسجد الاقصي اللهم انتقم منهم اشد انتقام"
+          video={asd}
+        />
 
         <CommentPosted
           content=" يتم تجريف المستوطنين الفلسطينيين الان من المسجد الاقصي  حسبنا الله ونعم الوكيل "
