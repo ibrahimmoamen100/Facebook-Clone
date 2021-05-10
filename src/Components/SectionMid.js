@@ -28,7 +28,10 @@ export default class SectionMid extends Component {
           img={israel}
         />
         <CommentPosted content="❤ البشمهندس اسامه ربنا يحفظو " img={osama} />
-        <CommentPosted content="😂 صهيوني يحن لوطنه الحقيقي    " img={kmama} />
+        <CommentPosted
+          content="😂 و مهما دارت الدنيا ,, حتما ستحن لوطنك الحقيقي  "
+          img={kmama}
+        />
       </div>
     );
   }
