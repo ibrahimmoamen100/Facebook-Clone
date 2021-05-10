@@ -5,6 +5,9 @@ import user from "../image/cc.jpg";
 import video from "../image/Facebook.mp4";
 import osama from "../image/ss.jpg";
 import nas from "../image/nas.jpg";
+import israel from "../image/israel.jpg";
+import pala1 from "../image/pala1.jpg";
+import pala2 from "../image/pala2.jpg";
 
 import "./SectionMid.css";
 
@@ -16,13 +19,15 @@ export default class SectionMid extends Component {
         <CommentPosted content="صلي علي الحبيب صلي الله عليه وسلم " />
         <CommentPosted content="❤ العشره الاواخر " video={video} />
         <CommentPosted
-          content="
-الخلوق ❤
-        
-          "
-          img={osama}
+          content="إسرائيل هي الإرهاب الحقيقي  #Israel_is_real_terrorism
+"
+          img={israel}
         />
-        <CommentPosted content="" img={nas} />
+        <CommentPosted
+          content="فلسطيــن غداً ستكون حرةً إن شاء الله"
+          img={pala1}
+        />
+        <CommentPosted content="الخلوق ❤ " img={osama} />
       </div>
     );
   }
