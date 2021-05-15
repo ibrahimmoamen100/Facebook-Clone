@@ -47,24 +47,7 @@ export default function MenuSection() {
           <span>Group</span>
         </NavLink>
         <span className="short-cut-title"> Your Shortcuts</span>
-        <a
-          href="https://www.facebook.com/groups/ElzeroWebSchool"
-          className="elzero-short"
-        >
-          <div>
-            <img src={elzero} />
-          </div>
-          <span>Elzero Web School</span>
-        </a>
-        <a
-          href="https://www.facebook.com/groups/UniqueCoderzAcademy"
-          className="unique-short"
-        >
-          <div>
-            <img src={unique} />
-          </div>
-          <span>Unique Coderz Acadimy</span>
-        </a>
+
         <a
           href="https://www.youtube.com/channel/UCMG7vp428nfRlAebuxwxziA/videos?view=0&sort=dd&shelf_id=0"
           className="unique-short"
