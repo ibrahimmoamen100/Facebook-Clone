@@ -19,17 +19,15 @@ export default class SectionMid extends Component {
     return (
       <div className="container-mid">
         <CreateComment />
-        <CommentPosted content="صلي علي الحبيب صلي الله عليه وسلم " />
+        <CommentPosted content="صلي علي محمد صلي الله عليه وسلم " />
 
-        <CommentPosted content="❤ العشره الاواخر " video={video} />
         <CommentPosted
-          content="إسرائيل هي الإرهاب الحقيقي  #Israel_is_real_terrorism
+          content=" #Israel_is_real_terrorism
 "
           img={israel}
         />
-        <CommentPosted content="❤ البشمهندس اسامه ربنا يحفظو " img={osama} />
         <CommentPosted
-          content="😂 و مهما دارت الدنيا ,, حتما ستحن لوطنك الحقيقي  "
+          content=" و مهما دارت الدنيا ,, حتما ستحن لوطنك الحقيقي  "
           img={kmama}
         />
       </div>
