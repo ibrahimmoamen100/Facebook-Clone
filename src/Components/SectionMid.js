@@ -13,12 +13,12 @@ export default class SectionMid extends Component {
         <CommentPosted content="صلي علي محمد صلي الله عليه وسلم " />
 
         <CommentPosted
-          content="FACEBOOK CLONE
+          content="simple Facebook clone
 "
           video={video}
         />
         <CommentPosted
-          content=" و مهما دارت الدنيا ,, حتما ستحن لوطنك الحقيقي  "
+          content="Helwan University"
           img={user}
         />
       </div>
