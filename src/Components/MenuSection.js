@@ -8,9 +8,9 @@ import watch from "../image/watch.png";
 import massenger from "../image/massenger.png";
 import marketplace from "../image/marketplace.png";
 import group from "../image/group.png";
-import elzero from "../image/elzero.jpg";
-import unique from "../image/unique.jpg";
 import youtube from "../image/youtube.png";
+import linkedin from "../image/linkedin.png";
+import github from "../image/github.png";
 import "./MenuSection.css";
 
 export default function MenuSection() {
@@ -49,13 +49,31 @@ export default function MenuSection() {
         <span className="short-cut-title"> Your Shortcuts</span>
 
         <a
+          href="https://www.linkedin.com/in/ibrahim-moamen-6ab690173/"
+          className="unique-short"
+        >
+          <div>
+            <img src={linkedin} />
+          </div>
+          <span>My LinkedIn</span>
+        </a>
+        <a
           href="https://www.youtube.com/channel/UCMG7vp428nfRlAebuxwxziA/videos?view=0&sort=dd&shelf_id=0"
           className="unique-short"
         >
           <div>
             <img src={youtube} />
           </div>
-          <span>MY Youtube Channel</span>
+          <span>My Youtube Channel</span>
+        </a>
+        <a
+          href="https://github.com/ibrahimmoamen100"
+          className="unique-short"
+        >
+          <div>
+            <img src={github} />
+          </div>
+          <span>My Github</span>
         </a>
       </ul>
       {/* <h1>Hello from menu</h1> */}

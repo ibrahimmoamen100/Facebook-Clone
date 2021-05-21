@@ -5,7 +5,7 @@ import like from "../../image/like.svg";
 import angry from "../../image/angry.svg";
 import haha from "../../image/haha.svg";
 import wow from "../../image/wow.svg";
-import video from "../../image/Facebook.mp4";
+import video from "../../image/facebook.mp4";
 import love from "../../image/heart.png";
 import { NavLink } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
